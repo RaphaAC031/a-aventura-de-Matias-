@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura de Matias</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="">
+            <p>Matias, é uma pessoa curiosa, ele decidiu procurar um local para se divertir em  uma floresta perto de sua casa. Ele anda por um caminho tranquilo, admirando a natureza ao seu redor. Depois de um tempo andando, ele chega a uma divisão no caminho. Para qual direção João vai seguir?</p>
+            <button class="btn-proximo" data-proximo="1">Esquerda: Um caminho escuro e tenebroso, onde ele ouve sons de animais perigosos.</button>
+            <button class="btn-proximo" data-proximo="2">Direita: Um caminho iluminado pelo sol, onde ele escuta o som de pessoas nandando em um lago.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Matias decide seguir pela direita, o caminho iluminado pelo sol. Ele continua andando e, após alguns minutos, ele encontra seus colegas de escola.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar no lago com seus colegas</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar eles e continuar procurando algo para se divertir</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
